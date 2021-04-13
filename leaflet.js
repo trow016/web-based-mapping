@@ -18,7 +18,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'your.mapbox.access.token'
+    accessToken: 'pk.eyJ1IjoidHJvdzAxNiIsImEiOiJja25jbmlzdWUxdGtmMnBvemttandkNDluIn0.mCHk95h6VT7MT-o0gtjq0Q'
 }).addTo(mymap);
 var marker = L.marker([51.5, -0.09]).addTo(mymap);
 var circle = L.circle([51.508, -0.11], {
